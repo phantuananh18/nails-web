@@ -15,8 +15,8 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "2IN.CORNER — Đặt lịch làm nail online",
-  description: "Đặt lịch làm nail nhanh chóng: chọn dịch vụ, chọn thợ, chọn giờ — chỉ trong vài bước.",
+  title: "2IN.CORNER - Đặt lịch làm nail online",
+  description: "Đặt lịch làm nail nhanh chóng: chọn dịch vụ, chọn giờ chỉ trong vài bước.",
 };
 
 export default function RootLayout({ children }: LayoutProps<"/">) {

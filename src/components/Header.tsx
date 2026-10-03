@@ -7,7 +7,7 @@ import { useAuth } from "@/lib/auth-context";
 
 const links = [
   { href: "/services", label: "Dịch vụ" },
-  { href: "/staff", label: "Thợ nail" },
+  // { href: "/staff", label: "Thợ nail" },
   { href: "/gallery", label: "Thư viện" },
   { href: "/book", label: "Đặt lịch" },
 ];

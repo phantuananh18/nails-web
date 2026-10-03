@@ -1,7 +1,7 @@
 import { getCategories } from "@/lib/api";
 import { formatPrice } from "@/lib/format";
 
-export const metadata = { title: "Dịch vụ — 2IN.CORNER" };
+export const metadata = { title: "DỊCH VỤ" };
 
 export default async function ServicesPage() {
   const categories = await getCategories().catch(() => []);
@@ -16,7 +16,7 @@ export default async function ServicesPage() {
       <div className="mt-10 space-y-12">
         {categories.map((category) => (
           <section key={category.id}>
-            <h2 className="text-xl font-semibold text-rose-700">{category.name}</h2>
+            <h2 className="text-xl font-semibold text-rose-700">{category.name.toUpperCase()}</h2>
             {category.description && <p className="mt-1 text-sm text-zinc-500">{category.description}</p>}
 
             {category.services.length === 0 ? (

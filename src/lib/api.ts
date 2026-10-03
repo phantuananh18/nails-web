@@ -140,7 +140,7 @@ export interface CreateBookingRequest {
 
 // ---- Catalog (public) ----
 
-export const getCategories = () => request<ServiceCategoryDto[]>("/api/services/categories");
+export const getCategories = () => request<ServiceCategoryDto[]>("/api/categories");
 
 export const getServices = () => request<ServiceDto[]>("/api/services");
 
